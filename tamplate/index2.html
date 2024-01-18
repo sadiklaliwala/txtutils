@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>main page</title>
+    <style>
+        .txt-container {
+            width: 1414px;
+            height: 305px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/anylyze" method="get">
+        <textarea name="text" cols="30" rows="10" class="txt-container"></textarea><br>
+        <input type="checkbox" name="removepunc">Remove Punctuation <br>
+        <input type="checkbox" name="uppercase">Upper case <br>
+        <input type="checkbox" name="newline">new line  <br>
+        <input type="checkbox" name="spaceremover">spaceremover  <br>
+        <input type="checkbox" name="charcount">charcount  <br>
+        <button type="submit">anylyzed button</button>
+    </form>
+</body>
+
+</html>
